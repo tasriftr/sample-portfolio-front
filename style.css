@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Azeret Mono", monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 20px;
+}
+.resume {
+  font-weight: bold;
+  border: solid black 1px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+}
+.near {
+  height: 652px;
+  width: 100%;
+  background-image: url("./assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.support {
+  height: 313px;
+  width: 100%;
+  background-image: url("./assets/handshake.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+.inside-support {
+  background-color: #00000021;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.inside-near {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 100px;
+
+  text-align: center;
+}
+.banner-title {
+  font-size: 48px;
+  font-weight: 900;
+}
+.paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  color: #0d1321;
+  font-weight: normal;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 18px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Azeret Mono", monospace;
+}
+.why {
+  width: 80%;
+  margin: 74px auto;
+  padding: 97px 80px;
+  background-color: #fafafb;
+  border-radius: 20px;
+}
+.why-content {
+  text-align: center;
+
+  height: 336px;
+  text-align: start;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 0 48px;
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+}
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+.gap16 {
+  gap: 16px;
+}
+.gap24 {
+  gap: 24px;
+}
+.mb-98 {
+  margin-bottom: 98px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.between {
+  justify-content: space-between;
+}
+.why-button {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  border: solid black 1px;
+  padding: 10px;
+
+  text-align: center;
+  width: 200px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.why-color1 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.why-color2 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 100% rgba(255, 255, 255, 1) 0%
+  );
+}
+.text-white {
+  color: white;
+}
+h5 {
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+}
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #555963;
+}
+h6 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.bold {
+  font-weight: bold;
+}
+.underline {
+  text-decoration: underline;
+}
+.text-center {
+  text-align: center;
+}
+iframe {
+  border-radius: 15px;
+  width: 100%;
+}
+.video {
+  padding: 32px;
+  border: 1px solid #cfd0d3;
+  border-radius: 16px;
+}
+.target-box {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: auto;
+  min-height: 240px;
+  border: 1px solid #cfd0d3;
+  border-radius: 16px;
+  padding: 32px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.current-container {
+  display: flex;
+}
+.current {
+  height: auto;
+  min-height: 300px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 16px;
+}
+/* color */
+.red {
+  background-color: #fff6f3;
+}
+.blue {
+  background-color: #f2f6fe;
+}
+.yellow {
+  background-color: #fffdf2;
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 99%;
+  }
+  .current-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+input {
+  width: 540px;
+  height: 56px;
+  border-radius: 16px;
+}
+.submit-button {
+  background-color: #fff;
+  border-radius: 16px;
+  width: 120px;
+  color: black;
+}
+footer {
+  width: 100%;
+  background-color: #f7f8f8;
+  height: 100px;
+}
+.footer {
+  max-width: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
